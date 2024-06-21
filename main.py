@@ -8,7 +8,7 @@ print(art.logo)
 
 directionx = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n")
 textx = input("Type your message:\n").lower()
-keyx = input("Type your Key:\n").lower()
+keyx = input("Type your Key(Don't Use Spaces for Key and No Numbers):\n").lower()
 
 def vinegere_encode(text, key):
     edited_text = ''
